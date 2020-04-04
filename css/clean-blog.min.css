@@ -38,8 +38,15 @@
 
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 320px) {
-    #top-part{
+    .navbar-brand {
+        visibility: hidden;
+        width: 0px;
         height: 0px;
+        margin: -10px;
+    }
+    
+    #top-part{
+        height: 5px;
     }
     
     #me{
@@ -128,14 +135,18 @@
  /*Extra Small Devices, Phones*/  
 @media only screen and (min-width : 453px) {
     
+    .navbar-brand {
+        visibility: hidden;
+    }
+    
     #top-part{
-        height: 0px;
+        height: 5px;
     }
     
     #me{
         margin-top: 30px; 
         margin-bottom: 20px;
-        margin-left: 40px;
+        margin-left: 70px;
         align-content: center;
     }
     
