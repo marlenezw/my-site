@@ -19,7 +19,7 @@ def main():
         url = post.replace(".md", ".html").replace("blog/", "posts/")
         with open(post) as post_f:
             html = _md.convert(post_f.read())
-            doc = template.render(content=html, baseurl="https://marlenemhangami.com", url=url, **_md.Meta)
+            doc = template.render(content=html, baseurl="https://marlenezw.github.io/my-site/", url=url, **_md.Meta)
 
         post_html = url
         with open(post_html, "w") as post_html_f:
