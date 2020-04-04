@@ -34,3 +34,342 @@
     
     
 }
+
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    #top-part{
+        height: 0px;
+    }
+    
+    #me{
+        margin-top: 30px; 
+        margin-bottom: 20px;
+        margin-left: 95px;
+        align-content: center;
+    }
+    
+    .col-md-1{
+        margin: 30px;
+    }
+    
+    .intro-text {
+        text-align: center;
+        align-content: center;
+    }
+    
+    .intro-text p{
+         margin-left: 20px;
+        margin-right: 20px;
+        text-align: justify;
+    }
+    
+    .first-page-content{
+        margin:20px;
+    }
+    
+    .first-page-content iframe{
+        width: 450px;
+    }
+    
+    .blog-img {
+        width: 450px;
+    }
+    
+    .interview h1{
+        text-align: center;
+    }
+    
+    .interview {
+        margin: 30px;
+        text-align: justify;
+    }
+    
+    .talk-vids{
+        margin:40px;
+    }
+    
+    .talk-vids h1 h2 h3{
+        text-align: center;
+    }
+    
+    .talk-vids iframe{
+        width: 450px;
+    }
+    
+    .blog-cs{
+        margin: 20px;
+    }
+    
+    .blog-cs img{
+        width: 480px;
+    }
+    
+    .int-page {
+        margin: 30px;
+    } 
+    
+    .int-page h1{
+        text-align: center;
+    } 
+    
+    .int-page iframe{
+        width: 470px;
+    } 
+}
+
+ /*Extra Small Devices, Phones*/  
+@media only screen and (min-width : 560px) {
+    
+    #top-part{
+        height: 0px;
+    }
+    
+    #me{
+        margin-top: 30px; 
+        margin-bottom: 20px;
+        margin-left: 190px;
+        align-content: center;
+    }
+    
+    .col-md-1{
+        margin: 30px;
+    }
+    
+    .intro-text {
+        text-align: center;
+        margin: auto;
+    }
+    
+    .intro-text p{
+         margin-left: 20px;
+        margin-right: 20px;
+        text-align: justify;
+    }
+    
+    .first-page-content{
+        margin:60px;
+    }
+    
+    .first-page-content iframe{
+        width: 500px;
+    }
+    
+    .blog-img {
+        width: 500px;
+    }
+    
+    .interview h1{
+        text-align: center;
+    }
+    
+    .interview {
+        margin: 30px;
+        text-align: justify;
+    }
+    
+     .talk-vids{
+        margin:40px;
+    }
+    
+    .talk-vids h1 h2 h3{
+        text-align: center;
+    }
+    
+    .talk-vids iframe{
+        width: 500px;
+    }
+    
+     .blog-cs{
+        margin: 30px;
+    }
+    
+    .blog-cs img{
+        width: 500px;
+    }
+    
+    .int-page {
+        margin: 30px;
+    } 
+    
+    .int-page h1{
+        text-align: center;
+    } 
+    
+    .int-page iframe{
+        width: 500px;
+    } 
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    
+   #top-part{
+        height: 150px;
+    }
+    
+    #me{
+        margin-top: 0px; 
+        margin-bottom: 20px;
+        margin-left: 250px;
+        align-content: center;
+    }
+    
+     .col-md-1{
+        margin: 0px;
+    }
+    
+    .intro-text h2{
+        text-align: center;
+        margin-left: 20px
+        
+    }
+    
+    .intro-text p{
+         margin-left: 20px;
+        margin-right: 20px;
+        text-align: justify;
+    }
+    
+    .first-page-content{
+        margin:20px;
+    }
+    
+    .first-page-content iframe{
+       width: 580px;
+    }
+    
+    .blog-img {
+        width: 580px;
+    }
+    
+    .interview h1{
+        text-align: left;
+    }
+    
+    .interview {
+        margin: 30px;
+        text-align: justify;
+    }
+    
+     .talk-vids{
+        margin:40px;
+    }
+    
+    .talk-vids h1 h2 h3{
+        text-align: left;
+    }
+    
+    .talk-vids iframe{
+        width: 580px;
+    }
+    
+     
+     .blog-cs{
+        margin: 30px;
+    }
+    
+    .blog-cs img{
+        width: 580px;
+    }
+    
+    .int-page {
+        margin: 40px;
+    } 
+    
+    .int-page h1{
+        text-align: center;
+    } 
+    
+    .int-page iframe{
+        width: 580px;
+    } 
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    #top-part{
+        height: 150px;
+    }
+    
+    #me{
+        margin-top: 60px; 
+        margin-bottom: 20px;
+        margin-left: 0px;
+        align-content: center;
+    }
+    
+     .col-md-1{
+        margin: 0px;
+    }
+    
+    .intro-text h2{
+        text-align: left;
+        margin-left: 20px
+        
+    }
+    
+    .intro-text p{
+         margin-left: 20px;
+        margin-right: 20px;
+        text-align: justify;
+    }
+    
+    .first-page-content{
+        margin:20px;
+    }
+    
+    .first-page-content iframe{
+       width: 580px;
+    }
+    
+    .blog-img {
+        width: 580px;
+    }
+    
+    .interview h1{
+        text-align: left;
+    }
+    
+    .interview {
+        margin: 30px;
+        text-align: justify;
+    }
+    
+    
+    .talk-vids h1{
+        text-align: left;
+        
+    }
+    
+    .talk-vids iframe{
+        align-content: center;
+    }
+    
+      .blog-cs{
+        margin: 30px;
+    }
+    
+    .blog-cs img{
+        width: 580px;
+    }
+    
+    .int-page {
+        margin: 40px;
+    } 
+    
+    .int-page h1{
+        text-align: left;
+    } 
+    
+    .int-page iframe{
+        width: 580px;
+    } 
+    
+     
+}
+
+
+
+
