@@ -5,7 +5,7 @@ from datetime import datetime
 from email.utils import formatdate, format_datetime  # for RFC2822 formatting
 
 TEMPLATE_FILE = "templates/_blog_template.html"
-BASE_URL = "https://marlenezw.github.io/my-site/"
+BASE_URL = "https://marlenemhangami.com/"
 
 def main():
     posts = glob.glob("blog/*.md")
