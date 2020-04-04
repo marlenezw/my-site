@@ -45,35 +45,38 @@
     #me{
         margin-top: 30px; 
         margin-bottom: 20px;
-        margin-left: 95px;
+        margin-left: 20px;
         align-content: center;
     }
     
     .col-md-1{
-        margin: 30px;
+        margin: 10px;
     }
     
-    .intro-text {
+    .intro-text{
         text-align: center;
         align-content: center;
     }
     
     .intro-text p{
-         margin-left: 20px;
-        margin-right: 20px;
-        text-align: justify;
+         margin-left: 10px;
+        
     }
     
     .first-page-content{
-        margin:20px;
+        margin:10px;
+    }
+    
+    .first-page-content h2 h3{
+        width: 400px;
     }
     
     .first-page-content iframe{
-        width: 450px;
+        width: 300px;
     }
     
     .blog-img {
-        width: 450px;
+        width: 300px;
     }
     
     .interview h1{
@@ -81,12 +84,12 @@
     }
     
     .interview {
-        margin: 30px;
-        text-align: justify;
+        text-align: left;
+        margin: 10px;
     }
     
     .talk-vids{
-        margin:40px;
+        margin:30px;
     }
     
     .talk-vids h1 h2 h3{
@@ -94,19 +97,19 @@
     }
     
     .talk-vids iframe{
-        width: 450px;
+        width: 300px;
     }
     
     .blog-cs{
-        margin: 20px;
+        margin: 10px;
     }
     
     .blog-cs img{
-        width: 480px;
+        width: 300px;
     }
     
     .int-page {
-        margin: 30px;
+        margin: 10px;
     } 
     
     .int-page h1{
@@ -114,7 +117,7 @@
     } 
     
     .int-page iframe{
-        width: 470px;
+        width: 300px;
     } 
 }
 
@@ -128,7 +131,7 @@
     #me{
         margin-top: 30px; 
         margin-bottom: 20px;
-        margin-left: 190px;
+        margin-left: 30px;
         align-content: center;
     }
     
@@ -144,7 +147,7 @@
     .intro-text p{
          margin-left: 20px;
         margin-right: 20px;
-        text-align: justify;
+        
     }
     
     .first-page-content{
