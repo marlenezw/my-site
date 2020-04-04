@@ -13,7 +13,7 @@
     ),
     /* bottom, image */
     
-    url('/img/open.jpeg');
+    url('img/open.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -28,7 +28,7 @@
     ),
     /* bottom, image */
     
-    url('/img/reading.jpg');
+    url('img/reading.jpg');
     background-repeat: no-repeat;
    
     

@@ -121,7 +121,7 @@ You need to have a code editor installed, where you’ll write and edit your cod
                     
  <p>Open the downloaded p5.js folder by using the ‘Open Folder’ command under ‘File’ in your newly installed Brackets editor. This is what you should see if you click on the sketch.js file to the left. This is where we’ll be writing and editing all our code.  
 </p>
-<p><img src="/img/code-editor.png" width=75% height="500px" style='align-content: center; margin: auto;' /></p>
+<p><img src="img/code-editor.png" width=75% height="500px" style='align-content: center; margin: auto;' /></p>
 
 <p>
 The sketch file contains two ‘functions,’ setup() and draw(). A function is a block of code that performs a specific task. You’ll learn what tasks these two functions carry out in just a bit. For now, if you’re using Brackets click the lightning symbol on the right-hand side of the screen. That opens a window in your browser (e.g. Chrome) and that gives you a live look at what you’ve created with your code. We haven’t written any code yet so that's why the screen is blank.
@@ -135,19 +135,19 @@ Make the canvas 1024 x 695 pixels, by typing in createCanvas(1024, 695). The num
 
 Next up choose the color of the sky by filling the canvas with any color you want! Add the background() function inside your setup() function as well. The background function takes RGB values, so making the background color of your canvas gold looks like this; background(255,215,0). Hooray! You have created the sky!!! Your screen should look something like this
 </p>
-<p><img src="/img/yellow-canvas.png" width=75% height="400px" style='align-content: center; margin: auto;'/></p>  
+<p><img src="img/yellow-canvas.png" width=75% height="400px" style='align-content: center; margin: auto;'/></p>  
 
 <p>Now we’ll add some clouds. Let's start by making our clouds with 3 ellipses, you can improve the look of your game a bit later on. The ellipse() function allows you to draw an oval shape, it takes the following arguments; an x-coordinate, a y-coordinate, a width,  a height. The first two determine the ovals location, the second two determine its size. We add this ellipse function inside our draw() function, instead of in setup() function, we do this when we want to start adding drawings to the screen. 
 Whoops, if you’ve added your ellipse to the code editor but aren’t seeing it appear in your canvas don’t panic. This is probably because of two things. 
 
 Firstly, we’ve forgotten to give our ellipse some color. You can do this by using the fill() function which takes RGB values for arguments and fills any shape below it with that color. To make your clouds white use fill(255). You can find other RGB color values here. You can also vary the transparency of your clouds by using the ‘alpha value’ in the fill() function. Read about that here. Play around with this to give your clouds different colors. If you’d like to make your clouds the same shape as mine from the game example I built you can use the rect() function to draw a rectangle and then add two extra arguments to round its corners. You can read about that here. Here’s what you should be looking at.             
 </p>              
-<p><img src="/img/cloud.png" width=75% height="400px" style='align-content: center; margin: auto;' /></p>
+<p><img src="img/cloud.png" width=75% height="400px" style='align-content: center; margin: auto;' /></p>
 
 <p>Another reason you could be getting a blank screen is because you’ve made a mistake in your code. That's totally fine, everyone does! A great way to check this is by checking our console. The console is a tool developers use to check what's happening with their program in the browser (e.g Chrome.) To access your console, at the top of your browser click the View menu option, scroll down to developer and then choose Javascript Console. Once it's open you’ll see several tabs there, ‘ Elements, Console and Sources’ hopefully are some you see. Click on the console tag and take a look if you have any messages appearing in red? These messages will let you know if you have any errors and what line the error is on. Here’s an example of a mistake I made. 
 </p>              
-<p><img src="/img/console.png" width=75% height="150px" style='align-content: center; margin: auto;' /></p>
-<p><img src="/img/console-editor.png" width=75% height="100px" style='align-content: center; margin: auto;' /></p>
+<p><img src="img/console.png" width=75% height="150px" style='align-content: center; margin: auto;' /></p>
+<p><img src="img/console-editor.png" width=75% height="100px" style='align-content: center; margin: auto;' /></p>
 
 <p>I forgot to add the closing bracket in the setup function. The console told me the line to look for the error on (line 15 in the sketch.js file) and what was the issue. (If you’re not using Chrome, do a quick search online on where to find the Javascript Console using your browser.) 
 
@@ -197,7 +197,7 @@ function setup()
     rect(10 + 20, 482, 100 - 40, 68);
 </code></pre>
 
-<p><img src="/img/basic-shapes.png" width=75% height="400px" style='align-content: center; margin: auto;' /></p>
+<p><img src="img/basic-shapes.png" width=75% height="400px" style='align-content: center; margin: auto;' /></p>
                 
 <p>So far we’ve only been looking at basic shapes. We'll take a look at some more complex shapes and designs next! 
 
@@ -207,14 +207,14 @@ function setup()
 The buildings in the background of my game in the beginning have lots of detailed designs on them. I used the vertex() and line() functions to create most of these. I added them to the code so you can have a look (I’m sure there must be better ways of creating these, if you have ideas let me know!) 
 </p>
                 
-<p><img src="/img/adding-detail.png" width=75% height="400px" style='align-content: center; margin: auto;'/></p>
+<p><img src="img/adding-detail.png" width=75% height="400px" style='align-content: center; margin: auto;'/></p>
                 
 <p>Creating your own designs is fantastic and fun when you’re in a creative mood. Sometimes, though it means writing lots of code or coming up with a formula to make it easier. If you don’t feel like doing this, there is an alternative to use in case of emergencies. You can add real images to your game!
 
 This can be a handy way to create background scenery in a hurry. It’s really important that you think about the look and feel of your game, and try as much as possible to keep it consistent. Sometimes adding images can make the game look disorganised, but other times it can save you a lot of time and energy. To add images, you’ll have to first find some images you’d want to use. There are lots of sites that provide you with free creative images including creative commons. Make sure to only use images that have been shared with the public or that you’ve purchased from their creators.. You’ll also need to use the p5.js loadImage() and image() functions. You can see some examples and read specifics about how to use these functions here. In my game, I really wanted to add a traditional drum, mainly because they are awesome and something I felt would add to the game. A lot of traditional drums have super detailed designs and I thought that might be really tiring to write the code for haha, so I used an image. Here’s what that looks like, when I add it to our code so far.  
 </p>
                 
-<p><img src="/img/add-images.png" width=75% height="400px" style='align-content: center; margin: auto;'/></p>
+<p><img src="img/add-images.png" width=75% height="400px" style='align-content: center; margin: auto;'/></p>
 
 <h2>Conclusion</h2>
 
@@ -273,13 +273,13 @@ Have any specific questions? Send me an email <a href="mailto:marlenemhangami@gm
     </footer>
 
      <!-- jQuery -->
-    <script src="/vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Theme JavaScript -->
-    <script src="/js/clean-blog.min.js"></script>
+    <script src="js/clean-blog.min.js"></script>
 
     <!-- Twitter Helper -->
     <script>window.twttr = (function(d, s, id) {
