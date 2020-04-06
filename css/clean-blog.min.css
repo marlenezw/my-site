@@ -153,6 +153,12 @@
     background-position: center;
 }
     
+.con img{
+        width: 330px;
+        height:100px;
+        
+    }
+    
 }
 
 @media only screen and (min-width : 413px) {
@@ -270,6 +276,12 @@
     background-position: center;
 }
     
+.con img{
+        width: 350px;
+        height:100px;
+        
+    }
+    
 }
 
  /*Extra Small Devices, Phones*/  
@@ -280,14 +292,120 @@
     }
     
     #top-part{
-        height: 80px;
+        height: 90px;
     }
     
     #me{
         margin-top: 30px; 
         margin-bottom: 20px;
-        margin-left: 100px;
+        margin-left: 110px;
         align-content: center;
+        height: 200px;
+        width: 200px;
+        position: relative;
+    }
+    
+    .col-md-1{
+        margin: 10px;
+    }
+    
+    .intro-text{
+        text-align: center;
+        align-content: center;
+    }
+    
+    .intro-text p{
+         margin-left: 10px;
+        
+    }
+    
+    .first-page-content{
+        margin:10px;
+    }
+    
+    .first-page-content h2 h3{
+        width: 400px;
+    }
+    
+    .first-page-content iframe{
+        width: 450px;
+    }
+    
+    .blog-img {
+        width: 450px;
+    }
+    
+    .interview h1{
+        text-align: left;
+    }
+    
+    .interview {
+        text-align: left;
+        margin: 10px;
+    }
+    
+    .talk-vids{
+        margin:30px;
+    }
+    
+    .talk-vids h1 h2 h3{
+        text-align: center;
+    }
+    
+    .talk-vids iframe{
+        width: 450px;
+    }
+    
+    .blog-cs{
+        margin: 10px;
+    }
+    
+    .blog-cs img{
+        width: 450px;
+    }
+    
+    .int-page {
+        margin: 20px;
+    } 
+    
+    .int-page h1{
+        text-align: left;
+    } 
+    
+    .int-page iframe{
+        width: 450px;
+    } 
+    
+    .ind-blog img{
+        width: 440px;
+        margin: 20px;
+    }
+    
+    .con img{
+        width: 450px;
+        height:130px;
+        
+    }
+    
+}
+
+/*Extra Small Devices, Phones*/  
+@media only screen and (min-width : 580px) {
+    
+    .navbar-brand {
+        visibility: hidden;
+    }
+    
+    #top-part{
+        height: 100px;
+    }
+    
+    #me{
+        margin-top: 30px; 
+        margin-bottom: 20px;
+        margin-left: 150px;
+        align-content: center;
+        position: relative;
         height: 200px;
         width: 200px;
     }
@@ -368,10 +486,221 @@
         margin: 20px;
     }
     
+    .con img{
+        width: 450px;
+        height:130px;
+        
+    }
+    
+}
+
+@media only screen and (min-width : 643px) {
+    
+    .navbar-brand {
+        visibility: hidden;
+    }
+    
+    #top-part{
+        height: 100px;
+    }
+    
+    #me{
+        margin-top: 30px; 
+        margin-bottom: 20px;
+        margin-left: 180px;
+        align-content: center;
+        position: relative;
+        height: 200px;
+        width: 200px;
+    }
+    
+    .col-md-1{
+        margin: 10px;
+    }
+    
+    .intro-text{
+        text-align: center;
+        align-content: center;
+    }
+    
+    .intro-text p{
+         margin-left: 10px;
+        
+    }
+    
+    .first-page-content{
+        margin:10px;
+    }
+    
+    .first-page-content h2 h3{
+        width: 400px;
+    }
+    
+    .first-page-content iframe{
+        width: 450px;
+    }
+    
+    .blog-img {
+        width: 450px;
+    }
+    
+    .interview h1{
+        text-align: left;
+    }
+    
+    .interview {
+        text-align: left;
+        margin: 10px;
+    }
+    
+    .talk-vids{
+        margin:30px;
+    }
+    
+    .talk-vids h1 h2 h3{
+        text-align: center;
+    }
+    
+    .talk-vids iframe{
+        width: 450px;
+    }
+    
+    .blog-cs{
+        margin: 10px;
+    }
+    
+    .blog-cs img{
+        width: 450px;
+    }
+    
+    .int-page {
+        margin: 20px;
+    } 
+    
+    .int-page h1{
+        text-align: left;
+    } 
+    
+    .int-page iframe{
+        width: 450px;
+    } 
+    
+    .ind-blog img{
+        width: 440px;
+        margin: 20px;
+    }
+    
+    .con img{
+        width: 450px;
+        height:130px;
+        
+    }
+    
+}
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 675px) {
+    
+   #top-part{
+        height: 150px;
+    }
+    
+    #me{
+        margin-top: 0px; 
+        margin-bottom: 20px;
+        margin-left: 210px;
+        align-content: center;
+    }
+    
+     .col-md-1{
+        margin: 0px;
+    }
+    
+    .intro-text h2{
+        text-align: center;
+        margin-left: 20px
+        
+    }
+    
+    .intro-text p{
+         margin-left: 20px;
+        margin-right: 20px;
+        text-align: justify;
+    }
+    
+    .first-page-content{
+        margin:20px;
+    }
+    
+    .first-page-content iframe{
+       width: 580px;
+    }
+    
+    .blog-img {
+        width: 580px;
+    }
+    
+    .interview h1{
+        text-align: left;
+    }
+    
+    .interview {
+        margin: 30px;
+        text-align: justify;
+    }
+    
+     .talk-vids{
+        margin:40px;
+    }
+    
+    .talk-vids h1 h2 h3{
+        text-align: left;
+    }
+    
+    .talk-vids iframe{
+        width: 580px;
+    }
+    
+     
+     .blog-cs{
+        margin: 30px;
+    }
+    
+    .blog-cs img{
+        width: 580px;
+    }
+    
+    .int-page {
+        margin: 40px;
+    } 
+    
+    .int-page iframe{
+        width: 580px;
+    } 
+    
+    .ind-blog img{
+        width: 725px;
+        margin: 20px;
+        height: 500px;
+    }
+    
+    .con img{
+        width: 700px;
+        height:160px;
+        
+    }
+    
+    #stats img{
+        width: 800px;
+        height:900px;
+    }
+     
 }
 
 /* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
+@media only screen and (min-width : 738px) {
     
    #top-part{
         height: 150px;
@@ -469,6 +798,7 @@
      
 }
 
+
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
     #top-part{
@@ -552,7 +882,7 @@
     } 
     
      .ind-blog img{
-        width: 1140px;
+        width: 900px;
         margin: 20px;
         height: 600px;
     }
