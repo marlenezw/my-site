@@ -111,7 +111,7 @@
     <div class="ind-blog">
                 <p>   
                     
-<p>In the <a href="https://marlenemhangami.com/posts/an-introduction-to-javascript-using-p5js.html">last post</a>, we set up your environment, I introduced you to P5.js and we looked at how to use functions from this library to create the background of our game. Today we’ll be creating a game character, and we’ll learn how to make it walk, jump and fall. Through this process, you’ll learn about variables, the 'flow' of the program, conditionals and debugging using console.log. I'd strongly encourage you to read through, but if you'd like to have a look at the final code from this post right away you can find it on <a href="https://github.com/marlenezw/introtojstwo">my github</a>.</p>
+<p>In the <a href="https://marlenemhangami.com/posts/an-introduction-to-javascript-using-p5js.html" target='_blank'>last post</a>, we set up your environment, I introduced you to P5.js and we looked at how to use functions from this library to create the background of our game. Today we’ll be creating a game character, and we’ll learn how to make it walk, jump and fall. Through this process, you’ll learn about variables, the 'flow' of the program, conditionals and debugging using console.log. I'd strongly encourage you to read through, but if you'd like to have a look at the final code from this post right away you can find it on <a href="https://github.com/marlenezw/introtojstwo" target='_blank'>my github</a>.</p>
 
 <h2>Setting Up</h2> 
         
@@ -235,7 +235,7 @@ We want to tell the program what to do when the left or right arrow keys are pre
     <br>
     if(){}
     <br>
-The closed brackets take what we call a 'condition' for its argument. The condition determines whether or not the code in the curly braces is run. For our first conditional statement we will be using the 'keyCode' of the left arrow as our condition. You can read more about keycodes <a href="https://p5js.org/reference/#/p5/keyCode">here</a>. Take a look at the code below. 
+The closed brackets take what we call a 'condition' for its argument. The condition determines whether or not the code in the curly braces is run. For our first conditional statement we will be using the 'keyCode' of the left arrow as our condition. You can read more about keycodes <a href="https://p5js.org/reference/#/p5/keyCode" target='_blank'>here</a>. Take a look at the code below. 
 </p> 
         
 <pre><code class="javascript">
@@ -380,7 +380,7 @@ At the beginning of the post we set the value of gameChar_x to 300. When the lef
 
 </code></pre>
             
-<p>Other movements in our program like jumping, use these same concepts. Try and figure out how to do this on your own. [HINT] Create an isJumping variable (boolean) and subtract from the gameChar_y variable. Consider using the AND operator in your isJumping conditional statement in the draw() function to make sure the character only jumps when it's on the floor. Read about operators <a href="https://p5js.org/examples/control-logical-operators.html">here</a>. Also try and add a new ‘if’ statement that detects when your character is above the ground and when this condition is true subtracts from gameChar_y to make it fall back to the ground. I’ll leave a link to my Github below for you to have a look a my full code, but try as much as you can to work it out on your own :)
+<p>Other movements in our program like jumping, use these same concepts. Try and figure out how to do this on your own. [HINT] Create an isJumping variable (boolean) and subtract from the gameChar_y variable. Consider using the AND operator in your isJumping conditional statement in the draw() function to make sure the character only jumps when it's on the floor. Read about operators <a href="https://p5js.org/examples/control-logical-operators.html" target='_blank'>here</a>. Also try and add a new ‘if’ statement that detects when your character is above the ground and when this condition is true subtracts from gameChar_y to make it fall back to the ground. I’ll leave a link to my Github below for you to have a look a my full code, but try as much as you can to work it out on your own :)
 <br>
 <br>
 Alright! We’ve done quite a bit already. If you’d like to improve the way your character looks when it moves you can edit the code in the draw() function under a specific conditional statement. For example, if you’d like the ellipse to appear thinner as it moves left, edit the size argument of the ellipse() function under the isLeft conditional. In my case the ellipse code changed to this ellipse(gameChar_x, gameChar_y, 15, 30); and when I press the left arrow and the ellipse moves left, I see the following on my screen. 
@@ -397,13 +397,13 @@ Alright! We’ve done quite a bit already. If you’d like to improve the way yo
 <p>Ok! Well done if you managed to reach this point! You can already do so much with the knowledge you now have. You also learnt the basics about some fundamental concepts in Javascript namely; variables and how to change them, booleans, conditional statements and debugging with console.log().
 <br>
 <br>
-I think this is a good place to end this post for now. If you’d like to download the code that’s behind what we have so far, download it on my github <a href="https://github.com/marlenezw/introtojstwo">here</a>.
+I think this is a good place to end this post for now. If you’d like to download the code that’s behind what we have so far, download it on my github <a href="https://github.com/marlenezw/introtojstwo" target='_blank'>here</a>.
  <br>
 <br>   
 I’d encourage you to play around with the code. Try and see if you can add more conditional statements, say for example to change what the character looks like when it's jumping and facing left. Try to add a statement that makes the character fall when it’s over the water. You should be able to do lots of things with the conditional statements. If you struggle with anything let me know and I’ll address it in my upcoming post. Next time, we’ll create our own functions and focus on making the character interact with its environment. This is useful for adding a points system to a game or adding or losing life when you create villians. As usual, we’ll also learn some core concepts in Javascript while having fun with this game. 
 <br>
 <br>
-If you have any specific questions feel free to reach out to me! Send me an email <a href="mailto:marlenemhangami@gmail.com.com">here</a>, or find me on twitter. If you enjoyed this post share it with someone else!
+If you have any specific questions feel free to reach out to me! Send me an email <a href="mailto:marlenemhangami@gmail.com.com" target='_blank'>here</a>, or find me on twitter. If you enjoyed this post share it with someone else!
 <br>
 <br>
 Thanks for reading, 
